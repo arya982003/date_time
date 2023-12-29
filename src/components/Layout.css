@@ -1,0 +1,86 @@
+
+  .grid-container {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  td {
+    border: 1px solid #ddd;
+  }
+  
+  td input {
+    margin-bottom: 5px;
+  }
+  
+  th:not(:first-child),
+  td:not(:first-child) {
+    margin-left: 10px;
+  }  
+  
+  .buttons-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .timezone-section {
+    margin-bottom: 20px;
+  }
+  
+  .alloptions {
+    display: flex;
+    align-items: center;
+  }
+  
+  label {
+    margin-right: 10px;
+    padding: 10px;
+  }
+  
+  select {
+    width: 100%; 
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .option-container {
+    margin: 5px 0;
+    padding: 5px;
+  }
+
+.firstbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .firstbox button {
+    padding: 10px;
+    background-color: #305c31;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .firstbox span {
+    flex-grow: 1;
+    text-align: center; 
+    margin: 0 10px;
+  }
+  
